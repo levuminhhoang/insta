@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <style>
+                        .circle {
+                                width: 175px;
+                                height: 175px;
+                                background: url("https://thuelens.com/wp-content/uploads/2020/08/iStock-517188688-1536x963.jpg");
+                                border-radius: 50%;
+                        }
+                        .box {
+                                display: flex;
+                                justify-content: center;
+                                gap: 16px;
+                                margin: 20px;
+                                align-items: center;
+                        }
+
+                        .line {
+                                border: none;
+
+                                height: 1px;
+                                background-color: aliceblue;
+                                margin: 20px auto;
+                        }
+                        p {
+                                margin: 4px auto;
+                        }
+                        body {
+                                background-color: black;
+                                color: aliceblue;
+                        }
+                        img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                        }
+                        .photo {
+                                gap: 5px;
+                                display: grid;
+                                grid-template-columns: repeat(3, 1fr);
+                                text-align: center;
+                                max-width: 100%;
+                                height: auto;
+                        }
+                        .photo img {
+                                transition: transform 0.3s ease;
+                        }
+                        .photo img:hover {
+                                transform: scale(1.05);
+                        }
+                        .container {
+                                width: 625px;
+                                margin: auto;
+                        }
+                </style>
+        </head>
+
+        <body>
+                <div class="box">
+                        <div class="circle"></div>
+                        <div>
+                                <h1>lv.Gwenver</h1>
+                                <p>Lê Vũ Minh Hoàng</p>
+                                <p>13/10/2011</p>
+                                <p>zzz?</p>
+                        </div>
+                </div>
+                <div class="container">
+                        <div class="line"></div>
+                        <div class="photo">
+                                <div>
+                                        <img
+                                                src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/anh-phong-canh-6-1.jpg"
+                                        />
+                                </div>
+                                <div>
+                                        <img
+                                                src="https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2023/03/hinh-nen-chill-4.jpg"
+                                        />
+                                </div>
+                                <div>
+                                        <img
+                                                src="https://p16-capcut-sign-va.ibyteimg.com/tos-alisg-v-643f9f/7aca5283d7b048a282d2947034ce5035~tplv-nhvfeczskr-1:250:0.webp?lk3s=44acef4b&x-expires=1739603853&x-signature=l09TvI%2B489aOaI5bMSrg8z4f9og%3D"
+                                        />
+                                </div>
+                                <div>
+                                        <img
+                                                src="https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2023/03/hinh-nen-chill-7.jpg"
+                                        />
+                                </div>
+                                <div>
+                                        <img
+                                                src="https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2023/03/hinh-nen-chill-1.jpg"
+                                        />
+                                </div>
+                                <div>
+                                        <img
+                                                src="https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2023/03/hinh-nen-chill-2.jpg"
+                                        />
+                                </div>
+                        </div>
+                </div>
+        </body>
+</html>
